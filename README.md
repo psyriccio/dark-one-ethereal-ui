@@ -7,15 +7,15 @@ Modified from Atom One Dark UI Theme. See [one-dark-ui](https://atom.io/themes/o
 ### Comparison
 
 #### Before
-![Before](http://i.imgur.com/w2riiYR.png)
+![Before](http://i.imgur.com/t61IEUc.png)
 #### After
-![After](http://i.imgur.com/lgDkSXJ.png)
+![After](http://i.imgur.com/rwlgWmM.png)
 
 ### Changes
 
 #### Smallest tab bar
 
-![Tab Bar](http://i.imgur.com/EGPzY14.png)
+![Tab Bar](http://i.imgur.com/hVojaQd.png)
 
 This is the most important change. I usually do horizontal and vertical split programming workflow as inherited from when I was using Vim, and tab bar takes too much space on vertical stacking alignment. Not only more space gained, overall the screen looks less "bulky" too.
 
