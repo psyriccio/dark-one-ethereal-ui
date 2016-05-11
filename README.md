@@ -1,6 +1,7 @@
 ## One Dark Mini UI theme
 
 Minimized Atom One Dark UI Theme, for better multi pane programming.
+
 Not suitable for users who use mouse to click on the tab or users who mainly use multi tab over multi pane.
 
 Modified from Atom One Dark UI Theme. See [one-dark-ui](https://atom.io/themes/one-dark-ui) for more details.
