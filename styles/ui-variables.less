@@ -3,7 +3,7 @@
 // ----------------------------------------------
 
 @import "syntax-variables";
-.ui-syntax-color() { @syntax-background-color: hsl(220,24%,20%); } .ui-syntax-color(); // fallback color
+.ui-syntax-color() { @syntax-background-color: hsl(68,24%,20%); } .ui-syntax-color(); // fallback color
 @ui-syntax-color: @syntax-background-color;
 
 // Color guards -----------------
@@ -12,7 +12,7 @@
 @ui-s-l: lightness(@ui-syntax-color);
 @ui-inv: 10%; // inverse lightness if below
 
-.ui-hue() when (@ui-s-s = 0) { @ui-hue: 220; } // Use blue hue when no saturation
+.ui-hue() when (@ui-s-s = 0) { @ui-hue: 68; } // Use <strike>blue</strike> 5argon Green hue when no saturation
 .ui-hue() when (@ui-s-s > 0) { @ui-hue: @ui-s-h; }
 .ui-hue();
 
@@ -141,7 +141,7 @@
 // These variables are only used in this theme
 // ----------------------------------------------
 
-@ui-theme-name: one-dark-ui;
+@ui-theme-name: one-dark-mini-ui;
 
 // Text (Custom) -----------------
 @text-color-faded: fade(@text-color, 20%);
@@ -160,7 +160,7 @@
 
 
 // Base -----------------
-@base-accent-color: hsl(@ui-hue, 100%, 66%);
+@base-accent-color: hsl(@ui-hue, 100%, 38%);
 
 
 // Components (Custom) -----------------
@@ -183,7 +183,7 @@
 @progress-background-color:         @base-accent-color;
 
 @scrollbar-color:                   @level-1-color;
-@scrollbar-background-color:        @level-3-color; // replaced `transparent` with a solid color to test https://github.com/atom/one-light-ui/issues/4
+@scrollbar-background-color:        @level-3-color; // replaced `transparent` with a solid color to test https://github.com/atom/one-light-mini-ui/issues/4
 @scrollbar-color-editor:            contrast(@ui-syntax-color, darken(@ui-syntax-color, 18%), lighten(@ui-syntax-color, 9%) );
 @scrollbar-background-color-editor: @ui-syntax-color;
 
@@ -203,11 +203,11 @@
 
 @ui-size:                 1em;
 @ui-input-size:           @ui-size*1.15;
-@ui-padding:              @ui-size*1.5;
-@ui-padding-pane:         @ui-size*.5;
+@ui-padding:              @ui-size*1;
+@ui-padding-pane:         @ui-size*.1;
 @ui-padding-icon:         @ui-padding/3.3;
-@ui-line-height:          @ui-size*2;
-@ui-tab-height:           @ui-padding*2;
+@ui-line-height:          @ui-size*1.7;
+@ui-tab-height:           @ui-padding*1;
 
 
 

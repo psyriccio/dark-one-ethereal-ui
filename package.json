@@ -1,15 +1,15 @@
 {
-  "name": "one-dark-ui",
+  "name": "one-dark-mini-ui",
   "theme": "ui",
-  "version": "1.3.1",
-  "description": "Atom One dark UI theme",
+  "version": "1.0.0",
+  "description": "Minimized Atom One dark UI theme, for better multi pane programming.",
   "keywords": [
     "dark",
     "adaptive",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/atom/one-dark-ui",
+  "repository":"https://github.com/5argon/dark-one-mini-ui",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
@@ -28,17 +28,6 @@
       "minimum": 8,
       "maximum": 20,
       "default": "Auto"
-    },
-    "layoutMode": {
-      "title": "Layout Mode",
-      "description": "In Auto mode, the UI will automatically adapt based on the window size.",
-      "type": "string",
-      "default": "Auto",
-      "enum": [
-        "Compact",
-        "Auto",
-        "Spacious"
-      ]
     },
     "tabSizing": {
       "title": "Tab Sizing",
