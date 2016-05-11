@@ -6,10 +6,11 @@ Modified from Atom One Dark UI Theme. See [one-dark-ui](https://atom.io/themes/o
 
 ### Comparison
 
-#### Before
-![Before](http://i.imgur.com/4C7f1Vi.png)
-#### After
+#### Mini
 ![After](http://i.imgur.com/rwlgWmM.png)
+
+#### Original
+![Before](http://i.imgur.com/4C7f1Vi.png)
 
 ### Changes
 
