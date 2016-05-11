@@ -7,7 +7,7 @@ Modified from Atom One Dark UI Theme. See [one-dark-ui](https://atom.io/themes/o
 ### Comparison
 
 #### Before
-![Before](http://i.imgur.com/t61IEUc.png)
+![Before](http://i.imgur.com/4C7f1Vi.png)
 #### After
 ![After](http://i.imgur.com/rwlgWmM.png)
 
