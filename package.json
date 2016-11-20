@@ -1,15 +1,15 @@
 {
-  "name": "one-dark-mini-ui",
+  "name": "one-dark-ethereal-ui",
   "theme": "ui",
-  "version": "2.0.5",
-  "description": "Minimized Atom One dark UI theme, for better multi pane programming.",
+  "version": "1.0.0",
+  "description": "Coustomization of Atom One dark UI theme (one-dark-mini-ui)",
   "keywords": [
     "dark",
     "adaptive",
     "ui"
   ],
   "license": "MIT",
-  "repository": "https://github.com/5argon/dark-one-mini-ui",
+  "repository": "https://github.com/psyriccio/dark-one-ethereal-ui.git",
   "main": "lib/main",
   "engines": {
     "atom": ">0.40.0"
